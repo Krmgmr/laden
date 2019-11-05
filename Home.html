@@ -1,0 +1,131 @@
+<html>
+<head>
+<title>Home</title>
+</head>
+<body>
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.accordion {
+    background-color:#FF00FF;
+    color: #800000  ;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #00FF00;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+</style>
+</head>
+<body>
+
+<h2>Accordion with symbols</h2>
+<button class="accordion">Section 1</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">Section 2</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion">Section 3</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+</script>
+
+
+
+
+
+
+
+<b><font color="red" size="10"</font><marquee width=100% bgcolor="Blue" scrollamount="7" behavior="alternate">WELCOME TO RKC </marquee></b>
+<b><font color="lime" size="10"</font><marquee direction="right" bgcolor="Red" scrollamount="7" behavior="alternate">WELCOME TO RKC </marquee></b>
+
+
+<form>
+        <font color="lime" size= "5"> First name: <input type = "text" name = "first_name" /></font>
+        <font color="lime" size= "5"> Last name:</font> <input type = "text" name = "last_name" />
+      </form>
+<form>
+<font color="red" size="5">
+         <input type = "checkbox" name = "Food" value = "on">Food<br>
+         <input type = "checkbox" name = "Water" value = "on">Water<br>
+         <input type = "checkbox" name = "Electricity" value = "on">Electricity<br>
+         <input type = "checkbox" name = "Home" value = "on">Home<br>
+         <input type = "checkbox" name = "Clothes" value = "on">Clothes<br>
+         <input type = "checkbox" name = "Library" value = "on">Library<br>
+         <input type = "checkbox" name = "Game" value = "on">Game</font><br>
+      </form>
+
+<center>
+<p><i><font color="Green" size= "30"</font>Hello All  <br/>
+   Welcome To Radhakrishna Cricket Team Group</font><br/></i></p>
+<img src = "C:\Users\MA360566\Desktop\mywebsite\download (3).jpg" alt = "Test Image" width =400" height = "350" border = "5" align = "left"/>
+<img src = "C:\Users\MA360566\Desktop\mywebsite\download (4).jpg" alt = "Test Image" width = "400" height = "350" border = "3" align = "center"/>
+<img src = "C:\Users\MA360566\Desktop\mywebsite\download (5).jpg" alt = "Test Image" width = "400" height = "350" border = "3" align = "Right"/> 
+</body>	
+
+<body alink = "#54A250" link = "#040404" vlink = "#F40633">
+<p>Click following link for Airtel Recharge</p>
+      <a href = "http://airtel.com/" target = "_blank">Airtel</a>
+
+<a href = "http://airtel.com/" target = "_blank"> 
+         <img src = "download (4).jpg" alt = "ImageLink" border = "10"/>
+
+
+</body>
+</html>
+
+ 
